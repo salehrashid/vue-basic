@@ -11,6 +11,5 @@ export default {
 </script>
 
 <template>
-    <h1>Options API</h1>
-    <h1>halo, perkenalkan nama saya {{ name }}, umur saya {{ umur }}, saya tinggal di {{ alamat }}</h1>
+    <h1>halo, perkenalkan nama saya {{ name }}, umur saya {{ umur }}, saya tinggal di {{ alamat }}. (Options API)</h1>
 </template>
