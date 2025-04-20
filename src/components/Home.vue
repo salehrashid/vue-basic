@@ -8,7 +8,7 @@
             Composition Component
         </router-link>
         <router-link to="/text-interpolation" class="btn btn-success mt-4 mx-2">
-            Text Component
+            Text Interpolation
         </router-link>
     </div>
 </template>

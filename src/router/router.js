@@ -10,26 +10,41 @@ import NotFound from '../components/NotFound.vue';
 
 const routes = [{
     path: '/',
-    component: Home
+    component: Home,
+    meta: {
+      title: "Home | Vue Basic"
+    }
   },
   {
     path: '/composition-component',
-    component: CompositionComponent
+    component: CompositionComponent,
+    meta: {
+      title: "Composition Component"
+    }
   },
   {
     path: '/option-component',
-    component: OptionsComponent
+    component: OptionsComponent,
+    meta: {
+      title: "Option Component"
+    }
   },
   {
     path: '/text-interpolation',
-    component: TextInterpolation
+    component: TextInterpolation,
+    meta: {
+      title: "Text Interpolation"
+    }
   },
 
   // Harus taruh paling bawah biar gak override route yang valid.
   {
     path: '/:pathMatch(.*)*', //itu wildcard alias tangkap semua route yang nggak match.
     name: 'NotFound',
-    component: NotFound
+    component: NotFound,
+    meta: {
+      title: "404 Not Found"
+    }
   }
 ]
 
